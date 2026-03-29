@@ -27,9 +27,9 @@ Fill in the details below:
 """)
 
 # =========================================
-# Mapping dictionaries (CRITICAL FIX)
+# Mapping dictionaries
 # =========================================
-TypeofContact_map = {"Company Invited": 0, "Self Inquiry": 1}
+TypeofContact_map = {"Company Invited": 0, "Self Enquiry": 1}
 Occupation_map = {"Salaried": 0, "Free Lancer": 1, "Small Business": 2}
 Gender_map = {"Male": 0, "Female": 1}
 ProductPitched_map = {"Basic": 0, "Standard": 1, "Deluxe": 2}

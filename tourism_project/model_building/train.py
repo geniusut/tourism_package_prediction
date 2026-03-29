@@ -17,14 +17,14 @@ from huggingface_hub.utils import RepositoryNotFoundError
 
 
 # =========================================
-# 2. MLflow Setup (LIKE YOUR EXAMPLE)
+# 2. MLflow Setup 
 # =========================================
 mlflow.set_tracking_uri("http://localhost:5000")
 mlflow.set_experiment("tourism-training-experiment")
 
 
 # =========================================
-# 3. Load Data from Hugging Face (LIKE EXAMPLE)
+# 3. Load Data from Hugging Face 
 # =========================================
 repo_id = "geniusut/tourism-package-prediction-project"
 
@@ -38,7 +38,7 @@ print("Train/Test loaded from Hugging Face!")
 
 
 # =========================================
-# 4. Split X and y (IMPORTANT)
+# 4. Split X and y 
 # =========================================
 target_col = "ProdTaken"
 
